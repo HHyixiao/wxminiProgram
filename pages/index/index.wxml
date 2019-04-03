@@ -10,4 +10,8 @@
   <view class="usermotto">
     <button class="user-motto" bindtap="clickMe">{{motto}}</button>
   </view>
+  <block>
+    <van-button loading size="mini" type="primary" />
+    <van-button loading size="small" type="danger" loading-text="加载中..." />
+  </block>
 </view>
