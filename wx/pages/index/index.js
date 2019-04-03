@@ -4,12 +4,15 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    motto: '你好HelloWorld世界',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
+  clickMe() {
+    this.setData({ motto: this.data.motto.split("").reverse().join("")})
+  },
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
