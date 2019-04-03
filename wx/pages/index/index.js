@@ -2,6 +2,13 @@
 //获取应用实例
 const app = getApp()
 
+App({
+  onLaunch() {
+    // 小程序启动之后 触发
+    console.log("页面加载了")
+  }
+})
+
 Page({
   data: {
     motto: '你好HelloWorld世界',

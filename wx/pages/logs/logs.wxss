@@ -6,3 +6,11 @@
 .log-item {
   margin: 10rpx;
 }
+
+/* 屏幕总宽度 750rpx */
+map {
+  width:700rpx;
+  height:450rpx;
+  margin-left:25rpx;
+  margin-bottom:25rpx;
+}

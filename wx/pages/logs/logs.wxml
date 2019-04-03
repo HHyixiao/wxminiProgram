@@ -4,3 +4,16 @@
     <text class="log-item">{{index + 1}}. {{log}}</text>
   </block>
 </view>
+<map
+  id="map"
+  longitude="120.2"
+  latitude="30.3"
+  scale="14"
+  controls="{{controls}}"
+  bindcontroltap="controltap"
+  markers="{{markers}}"
+  bindmarkertap="markertap"
+  polyline="{{polyline}}"
+  bindregionchange="regionchange"
+  show-location
+></map>
