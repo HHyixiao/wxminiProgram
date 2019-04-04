@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-field": "/miniprogram_npm/vant-weapp/field/index",
+    "tabbar": "/components/tabbar/tabbar"
+  },
+  "backgroundColor": "#f2f3f5",
+  "navigationBarTitleText": "搜索"
+}

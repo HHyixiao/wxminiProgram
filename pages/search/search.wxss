@@ -1,0 +1,9 @@
+/* pages/search/search.wxss */
+page{
+  height: 100%;
+}
+.search {
+  color: #323233;
+  background-color: #f2f3f5;
+  height: 100%;
+}

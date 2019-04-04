@@ -1,0 +1,9 @@
+<!--pages/search/search.wxml-->
+<view class='search'>
+  <block>
+    <van-cell-group>
+      <van-field value="{{ value }}" placeholder="请输入搜索项" border="{{ false }}" bind:change="onChange" icon="search"/>
+    </van-cell-group>
+    <tabbar active="1"></tabbar>
+  </block>
+</view>
