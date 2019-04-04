@@ -25,6 +25,11 @@ Page({
       url: '../logs/logs'
     })
   },
+  goPageOne: function () {
+    wx.navigateTo({
+      url: '../one/one'
+    })
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

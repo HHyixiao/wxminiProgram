@@ -1,0 +1,13 @@
+<!--pages/one/one.wxml-->
+<view>oneMan</view>
+<van-button type="default">变秃了就变强了</van-button>
+
+<template name="man">
+  <view>
+    <view>姓名：{{name}}</view>
+    <view>年龄：{{age}}</view>
+    <view>性别：{{sex}}</view>
+  </view>
+</template>
+
+<template is="man" data="{{...user}}"></template>

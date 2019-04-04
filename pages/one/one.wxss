@@ -1,0 +1,8 @@
+/* pages/one/one.wxss */
+view{
+  width: 100%;
+  height: 40rpx;
+  font-size: 32rpx;
+  color: #ad8546;
+  text-align: center
+}

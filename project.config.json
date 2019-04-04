@@ -9,11 +9,13 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"nodeModules": true
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.6.4",
-	"appid": "wxd7788bd36ac1bf34",
+	"appid": "wx2df23ed4ef781f2d",
 	"projectname": "wx",
 	"debugOptions": {
 		"hidedInDevtools": []
