@@ -9,5 +9,18 @@
     <view>性别：{{sex}}</view>
   </view>
 </template>
+<wxs module="m1">
+  var a = 1
+  module.exports.value = a 
+</wxs>
 
 <template is="man" data="{{...user}}"></template>
+<view class="m">{{m1.value}}</view>
+<view class="f-click">
+  <view class="click"
+        hover-class='hover-conent'
+        hover-start-time='1500'
+        hover-stay-time='1000'
+        hover-stop-propagation='true'
+  ></view>
+</view>

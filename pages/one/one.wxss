@@ -1,8 +1,27 @@
 /* pages/one/one.wxss */
 view{
   width: 100%;
-  height: 40rpx;
   font-size: 32rpx;
   color: #ad8546;
   text-align: center
+}
+.m{
+  display: block;
+  color: red;
+  font-size: 60rpx;
+}
+.f-click{
+  width: 700rpx;
+  height: 700rpx;
+  border: 10rpx solid black;
+  background-color: blue;
+}
+.click{
+  width: 500rpx;
+  height: 500rpx;
+  border: 10rpx solid red;
+  background-color: greenyellow;
+}
+.hover-conent{
+  background-color: burlywood;
 }
