@@ -4,7 +4,7 @@
 
 1. 安装npm依赖
 
-    ``` npm insatall ```
+    ``` npm install ```
 
 2. 使用微信开发者工具npm构建
 
