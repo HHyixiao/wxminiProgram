@@ -1,10 +1,5 @@
 /* pages/one/one.wxss */
-view{
-  width: 100%;
-  font-size: 32rpx;
-  color: #ad8546;
-  text-align: center
-}
+
 .m{
   display: block;
   color: red;
